@@ -205,7 +205,7 @@ F 3 "~" H 1750 3700 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1900 3700 2100 3700
+	1900 3700 2050 3700
 Wire Wire Line
 	2700 3700 2900 3700
 Wire Wire Line
@@ -218,7 +218,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 3300 2050 3300
 Wire Wire Line
-	2050 3300 2050 3950
+	2050 3300 2050 3700
 Wire Wire Line
 	2700 4150 2400 4150
 Wire Wire Line
@@ -1240,4 +1240,30 @@ Wire Wire Line
 Connection ~ 2700 4150
 Text Notes 7500 6800 0    50   ~ 0
 MIDI THRU V0.0.1
+$Comp
+L Device:C C9
+U 1 1 60331913
+P 4150 4150
+F 0 "C9" H 4265 4196 50  0000 L CNN
+F 1 "C" H 4265 4105 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm" H 4188 4000 50  0001 C CNN
+F 3 "~" H 4150 4150 50  0001 C CNN
+	1    4150 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 3650 4150 4000
+Wire Wire Line
+	3500 3650 4150 3650
+Connection ~ 3500 3650
+Wire Wire Line
+	3500 4650 4150 4650
+Wire Wire Line
+	4150 4650 4150 4300
+Connection ~ 3500 4650
+Connection ~ 2050 3700
+Wire Wire Line
+	2050 3700 2100 3700
+Wire Wire Line
+	2050 3700 2050 3950
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-17057328397468720
+17058947989654720
 AA-ROB
 MountingHole_Oval
 Mounting Hole 4.3x6.2mm, M4
@@ -363,6 +363,13 @@ potentiometer vertical 9mm single
 0
 1
 1
+AA-ROB-FULL
+RDA
+
+
+0
+10
+10
 AA-ROB-FULL
 ROB5mmLEDHOLE
 LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf

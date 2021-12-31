@@ -1,4 +1,4 @@
-19117834043982671
+19116217000571786
 AA-ROB-FULL
 AS6408
 Through hole straight socket strip, 2x32, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated
@@ -426,13 +426,6 @@ transformer flyback SMPS
 0
 8
 6
-AA-ROB-FULL
-din_socket
-
-
-0
-3
-2
 AA-ROB-FULL
 googiefuse
 Fuseholder horizontal open, 5x20mm, 500V, 16A, Schurter 0031.8201, https://us.schurter.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_OGN.pdf

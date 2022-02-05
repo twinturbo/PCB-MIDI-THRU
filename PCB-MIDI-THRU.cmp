@@ -1,18 +1,42 @@
-Cmp-Mod V01 Created by PcbNew   date = 05/02/2022 13:29:02
+Cmp-Mod V01 Created by PcbNew   date = 05/02/2022 13:47:34
 
 BeginCmp
-TimeStamp = 602CE84E
-Path = /5EDB4F9A
-Reference = H4;
-ValeurCmp = MountingHole_Pad;
+TimeStamp = 61FFD360
+Path = /62000D54
+Reference = H5;
+ValeurCmp = H5;
 IdModule  = MountingHole:MountingHole_3.2mm_M3_DIN965_Pad;
 EndCmp
 
 BeginCmp
-TimeStamp = 602CE7A7
-Path = /5EDB4F9A
+TimeStamp = 61FFD358
+Path = /61FFE6DE
 Reference = H4;
-ValeurCmp = MountingHole_Pad;
+ValeurCmp = H4;
+IdModule  = MountingHole:MountingHole_3.2mm_M3_DIN965_Pad;
+EndCmp
+
+BeginCmp
+TimeStamp = 61FFD350
+Path = /61FFE19C
+Reference = H3;
+ValeurCmp = H1;
+IdModule  = MountingHole:MountingHole_3.2mm_M3_DIN965_Pad;
+EndCmp
+
+BeginCmp
+TimeStamp = 61FFD348
+Path = /62000598
+Reference = H2;
+ValeurCmp = H2;
+IdModule  = MountingHole:MountingHole_3.2mm_M3_DIN965_Pad;
+EndCmp
+
+BeginCmp
+TimeStamp = 61FFD340
+Path = /6200CA7D
+Reference = H1;
+ValeurCmp = H3;
 IdModule  = MountingHole:MountingHole_3.2mm_M3_DIN965_Pad;
 EndCmp
 
@@ -22,30 +46,6 @@ Path =
 Reference = G***;
 ValeurCmp = LOGO;
 IdModule  = AA-ROB-FULL:K6neg;
-EndCmp
-
-BeginCmp
-TimeStamp = 602BAFA6
-Path = /5EDB4F9A
-Reference = H3;
-ValeurCmp = MountingHole_Pad;
-IdModule  = MountingHole:MountingHole_3.2mm_M3_DIN965_Pad;
-EndCmp
-
-BeginCmp
-TimeStamp = 602A4461
-Path = /5EDB4F9A
-Reference = H2;
-ValeurCmp = MountingHole_Pad;
-IdModule  = MountingHole:MountingHole_3.2mm_M3_DIN965_Pad;
-EndCmp
-
-BeginCmp
-TimeStamp = 602C3004
-Path = /5EDB4F9A
-Reference = H5;
-ValeurCmp = MountingHole_Pad;
-IdModule  = MountingHole:MountingHole_3.2mm_M3_DIN965_Pad;
 EndCmp
 
 BeginCmp
@@ -116,7 +116,7 @@ BeginCmp
 TimeStamp = 6029F29C
 Path = /6029764D
 Reference = U2;
-ValeurCmp = 6N137;
+ValeurCmp = 6N136;
 IdModule  = Package_DIP:DIP-8_W7.62mm;
 EndCmp
 

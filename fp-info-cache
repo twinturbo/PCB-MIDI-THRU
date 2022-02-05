@@ -1,4 +1,4 @@
-19116217000571786
+19122749028528676
 AA-ROB-FULL
 AS6408
 Through hole straight socket strip, 2x32, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated
@@ -20,6 +20,13 @@ https://store.arduino.cc/arduino-mega-2560-rev3
 0
 92
 91
+AA-ROB-FULL
+BlutoothModule
+
+
+0
+27
+27
 AA-ROB-FULL
 CAR BLADE FUSE
 
@@ -322,6 +329,13 @@ Potentiometer vertical Bourns 3296W
 1
 1
 AA-ROB-FULL
+PannelBournTrimmer-no3d
+Potentiometer, vertical, Bourns 3296W, https://www.bourns.com/pdfs/3296.pdf
+Potentiometer vertical Bourns 3296W
+0
+1
+1
+AA-ROB-FULL
 Potentiometer-Panel
 Potentiometer, vertical, Alps RK09K Single, http://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK09K/RK09K_list.html
 Potentiometer vertical Alps RK09K Single
@@ -342,6 +356,13 @@ potentiometer vertical 9mm single
 0
 1
 1
+AA-ROB-FULL
+RDA
+
+
+0
+10
+10
 AA-ROB-FULL
 ROB5mmLEDHOLE
 LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf
@@ -426,6 +447,13 @@ transformer flyback SMPS
 0
 8
 6
+AA-ROB-FULL
+din_socket
+
+
+0
+3
+2
 AA-ROB-FULL
 googiefuse
 Fuseholder horizontal open, 5x20mm, 500V, 16A, Schurter 0031.8201, https://us.schurter.com/bundles/snceschurter/epim/_ProdPool_/newDS/en/typ_OGN.pdf

@@ -1,11 +1,35 @@
-Cmp-Mod V01 Created by PcbNew   date = 15/02/2021 09:54:36
+Cmp-Mod V01 Created by PcbNew   date = 05/02/2022 13:29:02
 
 BeginCmp
-TimeStamp = 602ABB9B
-Path = /60331913
-Reference = C9;
-ValeurCmp = C;
-IdModule  = Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm;
+TimeStamp = 602CE84E
+Path = /5EDB4F9A
+Reference = H4;
+ValeurCmp = MountingHole_Pad;
+IdModule  = MountingHole:MountingHole_3.2mm_M3_DIN965_Pad;
+EndCmp
+
+BeginCmp
+TimeStamp = 602CE7A7
+Path = /5EDB4F9A
+Reference = H4;
+ValeurCmp = MountingHole_Pad;
+IdModule  = MountingHole:MountingHole_3.2mm_M3_DIN965_Pad;
+EndCmp
+
+BeginCmp
+TimeStamp = 602CC64C
+Path = 
+Reference = G***;
+ValeurCmp = LOGO;
+IdModule  = AA-ROB-FULL:K6neg;
+EndCmp
+
+BeginCmp
+TimeStamp = 602BAFA6
+Path = /5EDB4F9A
+Reference = H3;
+ValeurCmp = MountingHole_Pad;
+IdModule  = MountingHole:MountingHole_3.2mm_M3_DIN965_Pad;
 EndCmp
 
 BeginCmp
@@ -17,39 +41,87 @@ IdModule  = MountingHole:MountingHole_3.2mm_M3_DIN965_Pad;
 EndCmp
 
 BeginCmp
-TimeStamp = 602A4363
+TimeStamp = 602C3004
 Path = /5EDB4F9A
-Reference = H1;
+Reference = H5;
 ValeurCmp = MountingHole_Pad;
 IdModule  = MountingHole:MountingHole_3.2mm_M3_DIN965_Pad;
 EndCmp
 
 BeginCmp
-TimeStamp = 602A4351
-Path = 
-Reference = GIJO1;
-ValeurCmp = LOGO;
-IdModule  = ROBSLIBRARY:Girl7;
+TimeStamp = 6029F097
+Path = /6034E6CD
+Reference = R7;
+ValeurCmp = LINK;
+IdModule  = Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal;
 EndCmp
 
 BeginCmp
-TimeStamp = 602A433F
-Path = 
-Reference = GIJO;
-ValeurCmp = LOGO;
-IdModule  = ROBSLIBRARY:Girl7;
+TimeStamp = 6029F080
+Path = /6032745A
+Reference = R6;
+ValeurCmp = 470R;
+IdModule  = Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 6029F069
+Path = /60327450
+Reference = R5;
+ValeurCmp = 4K7;
+IdModule  = Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 6029F052
+Path = /60348119
+Reference = R4;
+ValeurCmp = LINK;
+IdModule  = Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 6029EE4E
+Path = /60327478
+Reference = D6;
+ValeurCmp = LED;
+IdModule  = LED_THT:LED_D5.0mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 6029EE3C
+Path = /6032746E
+Reference = D5;
+ValeurCmp = 1N4148;
+IdModule  = Diode_THT:D_A-405_P10.16mm_Horizontal;
+EndCmp
+
+BeginCmp
+TimeStamp = 6029EB1A
+Path = /60327464
+Reference = C3;
+ValeurCmp = 10UF;
+IdModule  = Capacitor_THT:CP_Radial_D5.0mm_P2.50mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 602B56AE
+Path = /60331913
+Reference = C9;
+ValeurCmp = 0.1uf;
+IdModule  = Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm;
 EndCmp
 
 BeginCmp
 TimeStamp = 6029F29C
 Path = /6029764D
 Reference = U2;
-ValeurCmp = 6N136;
+ValeurCmp = 6N137;
 IdModule  = Package_DIP:DIP-8_W7.62mm;
 EndCmp
 
 BeginCmp
-TimeStamp = 6029F280
+TimeStamp = 602B8EDC
 Path = /602B1E6D
 Reference = U1;
 ValeurCmp = L7805;
@@ -65,7 +137,7 @@ IdModule  = Package_DIP:DIP-14_W7.62mm;
 EndCmp
 
 BeginCmp
-TimeStamp = 6029F263
+TimeStamp = 602C1369
 Path = /60318354
 Reference = R27;
 ValeurCmp = 470R;
@@ -105,7 +177,7 @@ IdModule  = Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal;
 EndCmp
 
 BeginCmp
-TimeStamp = 6029F1F0
+TimeStamp = 602C23CB
 Path = /6031834A
 Reference = R22;
 ValeurCmp = 4K7;
@@ -145,7 +217,7 @@ IdModule  = Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal;
 EndCmp
 
 BeginCmp
-TimeStamp = 6029F17D
+TimeStamp = 602C13AB
 Path = /602F13D1
 Reference = R17;
 ValeurCmp = 220R;
@@ -185,7 +257,7 @@ IdModule  = Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal;
 EndCmp
 
 BeginCmp
-TimeStamp = 6029F10A
+TimeStamp = 602C12A6
 Path = /602DC33E
 Reference = R12;
 ValeurCmp = 220R;
@@ -225,39 +297,7 @@ IdModule  = Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal;
 EndCmp
 
 BeginCmp
-TimeStamp = 6029F097
-Path = /6034E6CD
-Reference = R7;
-ValeurCmp = LINK;
-IdModule  = Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal;
-EndCmp
-
-BeginCmp
-TimeStamp = 6029F080
-Path = /6032745A
-Reference = R6;
-ValeurCmp = 470R;
-IdModule  = Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal;
-EndCmp
-
-BeginCmp
-TimeStamp = 6029F069
-Path = /60327450
-Reference = R5;
-ValeurCmp = 4K7;
-IdModule  = Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal;
-EndCmp
-
-BeginCmp
-TimeStamp = 6029F052
-Path = /60348119
-Reference = R4;
-ValeurCmp = LINK;
-IdModule  = Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal;
-EndCmp
-
-BeginCmp
-TimeStamp = 6029F03B
+TimeStamp = 602B9600
 Path = /6035BA5A
 Reference = R3;
 ValeurCmp = 1K;
@@ -273,7 +313,7 @@ IdModule  = Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal;
 EndCmp
 
 BeginCmp
-TimeStamp = 6029F00D
+TimeStamp = 602B97F5
 Path = /6029B749
 Reference = R1;
 ValeurCmp = 220R;
@@ -281,7 +321,7 @@ IdModule  = Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal;
 EndCmp
 
 BeginCmp
-TimeStamp = 6029EFF6
+TimeStamp = 602C1329
 Path = /602F8F8A
 Reference = J7;
 ValeurCmp = Conn_01x02_Male;
@@ -337,7 +377,7 @@ IdModule  = Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical;
 EndCmp
 
 BeginCmp
-TimeStamp = 6029EF43
+TimeStamp = 602C15CB
 Path = /60318372
 Reference = D16;
 ValeurCmp = LED;
@@ -377,10 +417,10 @@ IdModule  = LED_THT:LED_D5.0mm;
 EndCmp
 
 BeginCmp
-TimeStamp = 6029EEE9
+TimeStamp = 602C13F5
 Path = /60318368
 Reference = D11;
-ValeurCmp = 1N4001;
+ValeurCmp = 1N4148;
 IdModule  = Diode_THT:D_A-405_P10.16mm_Horizontal;
 EndCmp
 
@@ -388,7 +428,7 @@ BeginCmp
 TimeStamp = 6029EECA
 Path = /60314242
 Reference = D10;
-ValeurCmp = 1N4001;
+ValeurCmp = 1N4148;
 IdModule  = Diode_THT:D_A-405_P10.16mm_Horizontal;
 EndCmp
 
@@ -396,7 +436,7 @@ BeginCmp
 TimeStamp = 6029EEAB
 Path = /6031137E
 Reference = D9;
-ValeurCmp = 1N4001;
+ValeurCmp = 1N4148;
 IdModule  = Diode_THT:D_A-405_P10.16mm_Horizontal;
 EndCmp
 
@@ -404,7 +444,7 @@ BeginCmp
 TimeStamp = 6029EE8C
 Path = /6030CB2E
 Reference = D8;
-ValeurCmp = 1N4001;
+ValeurCmp = 1N4148;
 IdModule  = Diode_THT:D_A-405_P10.16mm_Horizontal;
 EndCmp
 
@@ -412,23 +452,7 @@ BeginCmp
 TimeStamp = 6029EE6D
 Path = /602FE962
 Reference = D7;
-ValeurCmp = 1N4001;
-IdModule  = Diode_THT:D_A-405_P10.16mm_Horizontal;
-EndCmp
-
-BeginCmp
-TimeStamp = 6029EE4E
-Path = /60327478
-Reference = D6;
-ValeurCmp = LED;
-IdModule  = LED_THT:LED_D5.0mm;
-EndCmp
-
-BeginCmp
-TimeStamp = 6029EE3C
-Path = /6032746E
-Reference = D5;
-ValeurCmp = 1N4001;
+ValeurCmp = 1N4148;
 IdModule  = Diode_THT:D_A-405_P10.16mm_Horizontal;
 EndCmp
 
@@ -465,7 +489,7 @@ IdModule  = Diode_THT:D_A-405_P10.16mm_Horizontal;
 EndCmp
 
 BeginCmp
-TimeStamp = 6029EDAE
+TimeStamp = 602C14B4
 Path = /6031835E
 Reference = C8;
 ValeurCmp = 10UF;
@@ -500,14 +524,6 @@ BeginCmp
 TimeStamp = 6029EB9E
 Path = /602FCFB6
 Reference = C4;
-ValeurCmp = 10UF;
-IdModule  = Capacitor_THT:CP_Radial_D5.0mm_P2.50mm;
-EndCmp
-
-BeginCmp
-TimeStamp = 6029EB1A
-Path = /60327464
-Reference = C3;
 ValeurCmp = 10UF;
 IdModule  = Capacitor_THT:CP_Radial_D5.0mm_P2.50mm;
 EndCmp

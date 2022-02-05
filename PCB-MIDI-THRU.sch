@@ -1137,10 +1137,10 @@ Wire Wire Line
 Wire Wire Line
 	2050 3700 2050 3950
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 61F73DE1
 P 3550 1750
-F 0 "#PWR?" H 3550 1500 50  0001 C CNN
+F 0 "#PWR0101" H 3550 1500 50  0001 C CNN
 F 1 "GND" H 3555 1577 50  0000 C CNN
 F 2 "" H 3550 1750 50  0001 C CNN
 F 3 "" H 3550 1750 50  0001 C CNN
@@ -1156,4 +1156,78 @@ Wire Wire Line
 	3750 1650 4750 1650
 Wire Wire Line
 	5350 1650 6050 1650
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 61FFE19C
+P 6200 950
+F 0 "H3" H 5950 1000 50  0000 L CNN
+F 1 "MountingHole_Pad" H 5650 1100 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 6200 950 50  0001 C CNN
+F 3 "~" H 6200 950 50  0001 C CNN
+	1    6200 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 61FFE6DE
+P 6200 1150
+F 0 "H4" H 6200 1100 50  0000 R CNN
+F 1 "MountingHole_Pad" H 6550 1400 50  0000 R CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 6200 1150 50  0001 C CNN
+F 3 "~" H 6200 1150 50  0001 C CNN
+	1    6200 1150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 62000598
+P 6400 950
+F 0 "H2" H 6500 999 50  0000 L CNN
+F 1 "MountingHole_Pad" H 6400 1100 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 6400 950 50  0001 C CNN
+F 3 "~" H 6400 950 50  0001 C CNN
+	1    6400 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H5
+U 1 1 62000D54
+P 6400 1150
+F 0 "H5" V 6250 1250 50  0000 R CNN
+F 1 "MountingHole_Pad" H 6200 1400 50  0000 R CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 6400 1150 50  0001 C CNN
+F 3 "~" H 6400 1150 50  0001 C CNN
+	1    6400 1150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 6200CA7D
+P 6100 1050
+F 0 "H1" V 6000 1250 50  0000 C CNN
+F 1 "MountingHole_Pad" V 5900 1450 50  0000 C CNN
+F 2 "" H 6100 1050 50  0001 C CNN
+F 3 "~" H 6100 1050 50  0001 C CNN
+	1    6100 1050
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6200 1050
+Wire Wire Line
+	6200 1050 6400 1050
+Connection ~ 6400 1050
+Wire Wire Line
+	6900 1050 6900 1100
+Wire Wire Line
+	6400 1050 6900 1050
+$Comp
+L power:GND #PWR?
+U 1 1 6201766C
+P 6900 1100
+F 0 "#PWR?" H 6900 850 50  0001 C CNN
+F 1 "GND" H 6905 927 50  0000 C CNN
+F 2 "" H 6900 1100 50  0001 C CNN
+F 3 "" H 6900 1100 50  0001 C CNN
+	1    6900 1100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

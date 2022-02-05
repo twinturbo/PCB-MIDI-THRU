@@ -348,10 +348,6 @@ F 3 "" H 3500 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3750 1650 4550 1650
-Wire Wire Line
-	5350 1650 5400 1650
-Wire Wire Line
 	6050 1650 6050 2050
 Connection ~ 6050 2050
 Wire Wire Line
@@ -1029,79 +1025,6 @@ Wire Wire Line
 	6650 4550 6650 4400
 Connection ~ 6650 4400
 $Comp
-L Device:R R5
-U 1 1 60327450
-P 4950 2150
-F 0 "R5" V 4850 2150 50  0000 C CNN
-F 1 "4K7" V 4950 2150 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4880 2150 50  0001 C CNN
-F 3 "~" H 4950 2150 50  0001 C CNN
-	1    4950 2150
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R6
-U 1 1 6032745A
-P 5300 2150
-F 0 "R6" V 5200 2150 50  0000 C CNN
-F 1 "470R" V 5300 2150 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5230 2150 50  0001 C CNN
-F 3 "~" H 5300 2150 50  0001 C CNN
-	1    5300 2150
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:CP_Small C3
-U 1 1 60327464
-P 5650 2350
-F 0 "C3" V 5600 2200 50  0000 C CNN
-F 1 "10UF" V 5600 2550 50  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 5650 2350 50  0001 C CNN
-F 3 "~" H 5650 2350 50  0001 C CNN
-	1    5650 2350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:D D5
-U 1 1 6032746E
-P 4600 2300
-F 0 "D5" H 4500 2250 50  0000 C CNN
-F 1 "1N4148" H 4800 2350 50  0000 C CNN
-F 2 "Diode_THT:D_A-405_P10.16mm_Horizontal" H 4600 2175 50  0001 C CNN
-F 3 "~" H 4600 2300 50  0001 C CNN
-	1    4600 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D6
-U 1 1 60327478
-P 5600 2150
-F 0 "D6" H 5350 2100 50  0000 C CNN
-F 1 "LED" H 5600 2050 50  0000 C CNN
-F 2 "LED_THT:LED_D5.0mm" H 5600 2150 50  0001 C CNN
-F 3 "~" H 5600 2150 50  0001 C CNN
-	1    5600 2150
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5750 2150 5750 2250
-Wire Wire Line
-	5550 2350 5150 2350
-Wire Wire Line
-	5150 2350 5150 2150
-Wire Wire Line
-	5100 2150 5150 2150
-Connection ~ 5150 2150
-Wire Wire Line
-	5150 2350 4750 2350
-Wire Wire Line
-	4750 2350 4750 2300
-Connection ~ 5150 2350
-Wire Wire Line
-	4450 2300 4450 2150
-Wire Wire Line
-	4450 2150 4550 2150
-$Comp
 L power:GND #PWR016
 U 1 1 6032E968
 P 10700 4750
@@ -1152,56 +1075,6 @@ Connection ~ 10700 4650
 Wire Wire Line
 	10700 4650 10700 4750
 $Comp
-L Device:R R4
-U 1 1 60348119
-P 4550 1800
-F 0 "R4" V 4450 1800 50  0000 C CNN
-F 1 "LINK" V 4550 1800 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4480 1800 50  0001 C CNN
-F 3 "~" H 4550 1800 50  0001 C CNN
-	1    4550 1800
-	1    0    0    -1  
-$EndComp
-Connection ~ 4550 1650
-Wire Wire Line
-	4550 1650 4750 1650
-$Comp
-L Device:R R7
-U 1 1 6034E6CD
-P 5400 1800
-F 0 "R7" V 5300 1800 50  0000 C CNN
-F 1 "LINK" V 5400 1800 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5330 1800 50  0001 C CNN
-F 3 "~" H 5400 1800 50  0001 C CNN
-	1    5400 1800
-	1    0    0    -1  
-$EndComp
-Connection ~ 5400 1650
-Wire Wire Line
-	5400 1650 6050 1650
-Wire Wire Line
-	5400 1950 4550 1950
-Wire Wire Line
-	4550 1950 4550 2150
-Connection ~ 4550 1950
-Connection ~ 4550 2150
-Wire Wire Line
-	4550 2150 4800 2150
-$Comp
-L power:GND #PWR010
-U 1 1 6035A26F
-P 5750 2250
-F 0 "#PWR010" H 5750 2000 50  0001 C CNN
-F 1 "GND" V 5755 2122 50  0000 R CNN
-F 2 "" H 5750 2250 50  0001 C CNN
-F 3 "" H 5750 2250 50  0001 C CNN
-	1    5750 2250
-	0    -1   -1   0   
-$EndComp
-Connection ~ 5750 2250
-Wire Wire Line
-	5750 2250 5750 2350
-$Comp
 L Device:R R3
 U 1 1 6035BA5A
 P 3100 3800
@@ -1236,7 +1109,7 @@ Wire Wire Line
 	2700 4250 2700 4150
 Connection ~ 2700 4150
 Text Notes 7500 6800 0    50   ~ 0
-MIDI THRU V0.0.2
+MIDI THRU V0.0.3
 $Comp
 L Device:C C9
 U 1 1 60331913
@@ -1280,5 +1153,7 @@ Connection ~ 2950 1550
 Wire Wire Line
 	3550 1650 3550 1550
 Wire Wire Line
-	8150 6750 8100 6750
+	3750 1650 4750 1650
+Wire Wire Line
+	5350 1650 6050 1650
 $EndSCHEMATC

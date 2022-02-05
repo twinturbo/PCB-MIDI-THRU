@@ -14,6 +14,7 @@
 #  #8   30/01/22   19:43   RC    S    V0.0.2 Change 6N136 for 6N137        #
 #  #9   30/01/22   19:43   RC    S     Fix missing ground in U2 Opto       #
 #  #10  30/01/22   19:49   RC    P    V0.0.2 Fixed missing ground          #
+#  #11  05/02/22   13:19   RC    S    V0.0.3 Removed input LED             #
 ############################################################################
 
 

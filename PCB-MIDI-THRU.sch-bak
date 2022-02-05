@@ -1236,7 +1236,7 @@ Wire Wire Line
 	2700 4250 2700 4150
 Connection ~ 2700 4150
 Text Notes 7500 6800 0    50   ~ 0
-MIDI THRU V0.0.1
+MIDI THRU V0.0.2
 $Comp
 L Device:C C9
 U 1 1 60331913
@@ -1279,4 +1279,6 @@ Wire Wire Line
 Connection ~ 2950 1550
 Wire Wire Line
 	3550 1650 3550 1550
+Wire Wire Line
+	8150 6750 8100 6750
 $EndSCHEMATC
